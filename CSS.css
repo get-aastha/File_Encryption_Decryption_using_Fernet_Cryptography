@@ -1,0 +1,109 @@
+
+
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+text-align: center;
+background-image: url('https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg');
+background-size: cover;
+}
+
+header h1 {
+color: #333;
+}
+
+#menu {
+margin: 50px 0;
+}
+
+#menu button {
+padding: 15px 30px; /* Increased padding for bigger buttons */
+font-size: 18px; /* Increased font size for bigger text */
+background-color: black; /* Black color */
+color: #fff;
+border: none;
+border-radius: 8px; /* Increased border radius for rounded corners */
+margin-right: 20px; /* Increased margin */
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+#menu button:hover {
+background-color: #333; /* Darker shade of black on hover */
+}
+
+#menu button.selected {
+background-color: #333; /* Highlight selected button */
+}
+
+#uploadForm {
+margin: 30px auto;
+max-width: 400px;
+padding: 20px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#encryptionOptions {
+margin-bottom: 20px;
+}
+
+button {
+padding: 15px 30px; /* Increased padding for bigger buttons */
+font-size: 18px; /* Increased font size for bigger text */
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 8px; /* Increased border radius for rounded corners */
+cursor: pointer;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+a {
+color: #333;
+text-decoration: none;
+display: inline-block;
+margin-top: 10px;
+}
+
+a#downloadLink {
+background-color: #007bff; /* Blue color */
+color: #fff; /* White text color */
+padding: 15px 30px; /* Increased padding for bigger buttons */
+border-radius: 8px; /* Increased border radius for rounded corners */
+text-decoration: none; /* Remove underline */
+display: inline-block;
+margin-top: 10px;
+}
+
+a#downloadLink:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+/* Decrease size of Submit button */
+#uploadForm button {
+padding: 10px 15px; /* Decreased padding */
+font-size: 16px; /* Decreased font size */
+}
+
+/* Decrease size of Download button */
+a#downloadLink {
+padding: 10px 15px; /* Decreased padding */
+font-size: 16px; /* Decreased font size */
+}
+header h1 {
+color: white; /* Text color set to white */
+text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Black outline */
+padding: 10px; /* Add padding for better appearance */
+display: inline-block; /* Ensure outline wraps around text */
+font-size: 48px; /* Larger font size */
+margin-bottom: 5px; /* Decreased space below the title */
+}
+
+h2 {
+margin-top: 5px; /* Decreased space above the author information */
+}

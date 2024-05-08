@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Encryption/Decryption</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>File Encryption/Decryption</h1>
+<h2>By Aastha Kumar 21BCE5067</h2>
+</header>
+<div id="menu">
+<button onclick="showUploadForm('audio')">Encrypt/Decrypt Audio</button>
+<button onclick="showUploadForm('video')">Encrypt/Decrypt Video</button>
+<button onclick="showUploadForm('image')">Encrypt/Decrypt Image</button>
+</div>
+<div id="uploadForm">
+<h2 id="fileType"></h2>
+<input type="file" id="fileInput">
+<div id="encryptionOptions">
+<label>
+<input type="radio" name="encryptionOption" value="encrypt" checked> Encrypt
+</label>
+<label>
+<input type="radio" name="encryptionOption" value="decrypt"> Decrypt
+</label>
+</div>
+<button onclick="encryptDecrypt()">Submit</button>
+<p id="downloadLabel" style="display: none;">Download <span id="fileTypeLabel"></span> file:</p>
+<a id="downloadLink" href="#" download style="display: none;">Download</a>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
