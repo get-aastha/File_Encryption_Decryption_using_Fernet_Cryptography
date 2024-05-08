@@ -1,6 +1,6 @@
 # file_encryption_decryption_using_Fernet_cryptography
 
-Encrypting multimedia files, including images, videos, and audio recordings using Fernet cipher
+Encrypting multimedia files, including images, videos, and audio recordings using Fernet cipher. **Project report included**.
 
 # Software Specification
 
@@ -39,3 +39,14 @@ A library like cryptography (Python) or crypto-js (JavaScript) is required to im
 6.	 The same process is to be followed while decryption. Just make sure the decryption button is enabled.
 
 # Demo Video
+
+![image](https://github.com/get-aastha/file_encryption_decryption_using_Fernet_cryptography/assets/108509128/6be02d1c-9eda-4e13-b8cb-03ad427707da)
+
+
+![image](https://github.com/get-aastha/file_encryption_decryption_using_Fernet_cryptography/assets/108509128/491fe1db-bf94-42a5-88a5-52a6409d432b)
+
+
+![image](https://github.com/get-aastha/file_encryption_decryption_using_Fernet_cryptography/assets/108509128/326f0511-f23f-45ed-853f-3cb273bd1a1d)
+
+
+![image](https://github.com/get-aastha/file_encryption_decryption_using_Fernet_cryptography/assets/108509128/e2831c9d-ac40-49bc-9d25-ce695a804415)
