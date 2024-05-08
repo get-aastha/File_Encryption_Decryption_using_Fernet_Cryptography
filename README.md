@@ -38,7 +38,7 @@ A library like cryptography (Python) or crypto-js (JavaScript) is required to im
 5.	 A pop up menu will open where we can browse and select the folder/destination in which we want to save the encrypted file.
 6.	 The same process is to be followed while decryption. Just make sure the decryption button is enabled.
 
-# Demo Video
+# Outputs
 
 ![image](https://github.com/get-aastha/file_encryption_decryption_using_Fernet_cryptography/assets/108509128/6be02d1c-9eda-4e13-b8cb-03ad427707da)
 
